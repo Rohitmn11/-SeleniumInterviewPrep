@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Demo.UploadFile">
+      <class name="Demo.TestNGDataProvider_Test">
         <methods>
-          <include name="UploadTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="TestChrome" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- Demo.UploadFile -->
+      </class> <!-- Demo.TestNGDataProvider_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

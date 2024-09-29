@@ -7,13 +7,13 @@ public class ReverseAndSortArray {
 		int temp;
 		Integer [] a = {4,2,3,12,8,10,42};
 		for(int i=a.length-1;i>=0;i--) {
-			System.out.println(a[i]+" ");
+			System.out.print(a[i]+" ");
 		}
-		
+		System.out.println(" ");
 		for(int x=0;x<=a.length;x++) {
 			for(int b=x+1;b<=a.length-1;b++) {
 				int temp1 = 0;  
-				if(a[x]<a[b]) {
+				if(a[x]>a[b]) {
 					temp1 = a[x];
 					a[x]=a[b];
 					a[b]=temp1;	

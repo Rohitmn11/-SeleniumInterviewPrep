@@ -37,7 +37,7 @@ public class LaunchBrowser {
 //		ele.sendKeys("learn selenium");
 		
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
-		S
+		
 		//driver.quit();
 	}
 }
